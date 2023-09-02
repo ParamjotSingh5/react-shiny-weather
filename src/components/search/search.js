@@ -19,13 +19,20 @@ const Search = ({onSearchChange}) =>{
             return{
                 options: response.data.map((city) => {
                     return {
-                        value: `${city.latitude} ${city.longitude}`,
+                        value: `${city.latitude}&${city.longitude}`,
                         label: `${city.name}, ${city.countryCode}`
                     };
                 })
             };
         })
-        .catch(ex => console.log(ex));            
+        .catch(ex => {
+            if(ex.status === "429")
+            {
+                return "Please wait, api server is busy";
+            }
+            else
+                throw ex;
+        });            
     }
 
     return (
