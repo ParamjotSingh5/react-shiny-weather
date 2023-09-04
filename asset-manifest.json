@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-shiny-weather/static/css/main.6d120ecf.css",
+    "main.js": "/react-shiny-weather/static/js/main.3b3ed636.js",
+    "static/js/787.2706775d.chunk.js": "/react-shiny-weather/static/js/787.2706775d.chunk.js",
+    "index.html": "/react-shiny-weather/index.html",
+    "main.6d120ecf.css.map": "/react-shiny-weather/static/css/main.6d120ecf.css.map",
+    "main.3b3ed636.js.map": "/react-shiny-weather/static/js/main.3b3ed636.js.map",
+    "787.2706775d.chunk.js.map": "/react-shiny-weather/static/js/787.2706775d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d120ecf.css",
+    "static/js/main.3b3ed636.js"
+  ]
+}
